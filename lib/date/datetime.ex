@@ -15,4 +15,6 @@ defmodule Timex.DateTime do
   def new do
     %DateTime{timezone: %TimezoneInfo{}}
   end
+
+  def type, do: :datetime
 end
